@@ -937,37 +937,216 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="239" parent="5" name="greeter">
+    <table id="239" parent="5" name="address">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="240" parent="5" name="hibernate_sequence">
+    <table id="240" parent="5" name="company">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="241" parent="239" name="id">
+    <table id="241" parent="5" name="greeter">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="242" parent="5" name="hibernate_sequence">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="243" parent="5" name="passport">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="244" parent="5" name="person">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="245" parent="5" name="person_companies">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="246" parent="239" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="247" parent="239" name="building">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="248" parent="239" name="city">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="249" parent="239" name="street">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="250" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="251" parent="240" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="240" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="253" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="254" parent="241" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="239" name="greeting">
+    <column id="255" parent="241" name="greeting">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="239" name="target">
+    <column id="256" parent="241" name="target">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="244" parent="239" name="PRIMARY">
+    <key id="257" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="245" parent="240" name="next_val">
+    <column id="258" parent="242" name="next_val">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
+    <column id="259" parent="243" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="260" parent="243" name="issueDate">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="243" name="no">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="262" parent="243" name="series">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="263" parent="243" name="validity">
+      <Position>5</Position>
+      <DataType>tinyblob|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="264" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="265" parent="244" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="244" name="dob">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="267" parent="244" name="firstName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="268" parent="244" name="lastName">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="269" parent="244" name="PASSPORT_ID">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="270" parent="244" name="PERSON_ID">
+      <Position>6</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="271" parent="244" name="FK701a8b9b2kw01q32ws1rc42bp">
+      <ColNames>PERSON_ID</ColNames>
+    </index>
+    <index id="272" parent="244" name="UK_33yyiniy3o7irjyb5nbmidt4u">
+      <ColNames>PASSPORT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="273" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="274" parent="244" name="UK_33yyiniy3o7irjyb5nbmidt4u">
+      <ColNames>PASSPORT_ID</ColNames>
+      <UnderlyingIndexName>UK_33yyiniy3o7irjyb5nbmidt4u</UnderlyingIndexName>
+    </key>
+    <foreign-key id="275" parent="244" name="FKn3sbguup9nkxgiqxgfc0sigxj">
+      <ColNames>PASSPORT_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>passport</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="276" parent="244" name="FK701a8b9b2kw01q32ws1rc42bp">
+      <ColNames>PERSON_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>address</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="277" parent="245" name="PERSON_ID">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="278" parent="245" name="COMPANY_ID">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="279" parent="245" name="FK2xnkexg6vm6l0346lru8r6qaa">
+      <ColNames>COMPANY_ID</ColNames>
+    </index>
+    <index id="280" parent="245" name="FKj1do3s4ycpku0fpmm3pinysau">
+      <ColNames>PERSON_ID</ColNames>
+    </index>
+    <foreign-key id="281" parent="245" name="FKj1do3s4ycpku0fpmm3pinysau">
+      <ColNames>PERSON_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>person</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="282" parent="245" name="FK2xnkexg6vm6l0346lru8r6qaa">
+      <ColNames>COMPANY_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>company</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>
