@@ -1,0 +1,16 @@
+<hibernate-mapping package="hibernate.data_hibernate_mapping.xml.entity">
+    <class name="Address" table="ADDRESSES">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="city" type="string" column="CITY"/>
+        <property name="street" type="string" column="STREET"/>
+        <property name="building" type="string" column="BUILDING"/>
+        <set name="tenants" table="PERSONS" inverse="true" lazy="false">
+            <key>
+                <column name="PRIMARY_ADDRESS"/>
+            </key>
+            <one-to-many class="hibernate.data_hibernate_mapping.xml.entity.Person"/>
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,11 @@
+<hibernate-mapping package="hibernate.data_hibernate_mapping.xml.entity">
+    <class name="Passport" table="PASSPORTS">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="series" type="string" column="SERIES"/>
+        <property name="no" type="string" column="NO"/>
+        <property name="issueDate" type="timestamp" column="ISSUE_DATE"/>
+        <one-to-one name="owner" class="hibernate.data_hibernate_mapping.xml.entity.Person" cascade="save-update"/>
+    </class>
+</hibernate-mapping>
