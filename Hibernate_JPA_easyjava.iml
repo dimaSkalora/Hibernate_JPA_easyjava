@@ -10,10 +10,12 @@
           <unit-entry name="hibernate_resources:data-hibernate-mapping:hibernate.cfg.xml" />
           <unit-entry name="hibernate_resources:data-hibernate-mapping:xml:hibernate.cfg.xml" />
           <unit-entry name="hibernate_resources:data-hibernate-session:hibernate.cfg.xml" />
+          <unit-entry name="hibernate_resources:data-hibernate-sql_5:hibernate.cfg.xml" />
           <unit-entry name="hibernate_resources:data_hibernate_hello:hibernate.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_resources/data-hibernate-criteria_6/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_resources/data-hibernate-hql_4/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_resources/data-hibernate-mapping/annotations/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate_resources/data-hibernate-mapping/dynamic/hibernate.cfg.xml" />
