@@ -20,7 +20,7 @@
         </plugins>
     </build>
 
-    <dependencies>
+     <dependencies>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
@@ -38,6 +38,18 @@
             <artifactId>hibernate-java8</artifactId>
             <version>5.2.11.Final</version>
         </dependency>
+
+         <dependency>
+             <groupId>org.ehcache</groupId>
+             <artifactId>ehcache</artifactId>
+             <version>3.4.0</version>
+         </dependency>
+
+         <dependency>
+             <groupId>org.hibernate</groupId>
+             <artifactId>hibernate-envers</artifactId>
+             <version>5.2.11.Final</version>
+         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
