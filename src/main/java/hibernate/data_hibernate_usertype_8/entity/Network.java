@@ -29,7 +29,7 @@ public class Network {
     /**
      * Network data.
      */
-    @Type(type = "hibernate.data_hibernate_usertype_8.typ.NetworkObjectType")
+    @Type(type = "hibernate.data_hibernate_usertype_8.type.NetworkObjectType")
     @Getter
     @Setter
     private NetworkObject network;
