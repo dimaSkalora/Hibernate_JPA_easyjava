@@ -1,0 +1,92 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+
+    <persistence-unit name="data-jpa-hibernate-hellojpahibernate_01">
+        <!--provider>org.hibernate.jpa.HibernatePersistenceProvider</provider-->
+        <!--class>jpa.data_jpa_hibernate_hellojpahibernate_01.entity.GreeterJpa</class-->
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="root"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <!--property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+            value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="root"/-->
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="data-jpa-hibernate-entitymapping_02">
+        <!--provider>org.hibernate.jpa.HibernatePersistenceProvider</provider-->
+        <class>jpa.data_jpa_hibernate_entitymapping_02.entity.OperationJpa</class>
+        <properties>
+            <!--property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="root"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/-->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+            value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="root"/>
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="data-jpa-hibernate-primarykeys_03">
+        <!--provider>org.hibernate.jpa.HibernatePersistenceProvider</provider-->
+        <!--class>jpa.data_jpa_hibernate_primarykeys_03.entity.Customer</class>
+        <class>jpa.data_jpa_hibernate_primarykeys_03.entity.OperationJpa</class>
+        <class>jpa.data_jpa_hibernate_primarykeys_03.entity.User</class-->
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="root"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <!--property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="root"/-->
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="data-jpa-hibernate-inheritance_04">
+        <!--provider>org.hibernate.jpa.HibernatePersistenceProvider</provider-->
+        <properties>
+            <!--property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="root"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/-->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="root"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="data-jpa-hibernate-relations_05">
+        <!--provider>org.hibernate.jpa.HibernatePersistenceProvider</provider-->
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="root"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <!--property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/hibernate_jpa_easyjava"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="root"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/-->
+        </properties>
+    </persistence-unit>
+</persistence>

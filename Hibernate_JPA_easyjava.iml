@@ -52,6 +52,8 @@
         <datasource-mapping>
           <factory-entry name="data-jpa-hibernate-entitymapping_02" />
           <factory-entry name="data-jpa-hibernate-hellojpahibernate_01" />
+          <factory-entry name="data-jpa-hibernate-inheritance_04" />
+          <factory-entry name="data-jpa-hibernate-primarykeys_03" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
