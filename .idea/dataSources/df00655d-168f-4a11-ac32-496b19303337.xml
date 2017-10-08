@@ -946,485 +946,471 @@
     <table id="241" parent="5" name="address_aud">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="242" parent="5" name="addresses">
+    <table id="242" parent="5" name="address_jpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="243" parent="5" name="cargo">
+    <table id="243" parent="5" name="addresses">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="244" parent="5" name="companies">
+    <table id="244" parent="5" name="cargo">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="245" parent="5" name="company">
+    <table id="245" parent="5" name="companies">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="246" parent="5" name="company_aud">
+    <table id="246" parent="5" name="company">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="247" parent="5" name="customers">
+    <table id="247" parent="5" name="company_aud">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="248" parent="5" name="descriptions_inheritance">
+    <table id="248" parent="5" name="company_jpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="249" parent="5" name="greeter">
+    <table id="249" parent="5" name="customers">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="250" parent="5" name="greeterjpa">
+    <table id="250" parent="5" name="descriptions_inheritance">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="251" parent="5" name="hibernate_sequence">
+    <table id="251" parent="5" name="greeter">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="252" parent="5" name="journal">
+    <table id="252" parent="5" name="greeterjpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="253" parent="5" name="journal_inheritance">
+    <table id="253" parent="5" name="hibernate_sequence">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="254" parent="5" name="journal_jpa">
+    <table id="254" parent="5" name="journal">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="255" parent="5" name="liquidcargo">
+    <table id="255" parent="5" name="journal_inheritance">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="256" parent="5" name="network">
+    <table id="256" parent="5" name="journal_jpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="257" parent="5" name="operations_details">
+    <table id="257" parent="5" name="liquidcargo">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="258" parent="5" name="operations_details_jpa">
+    <table id="258" parent="5" name="network">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="259" parent="5" name="packedcargo">
+    <table id="259" parent="5" name="operations_details">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="260" parent="5" name="passport">
+    <table id="260" parent="5" name="operations_details_jpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="261" parent="5" name="passport_aud">
+    <table id="261" parent="5" name="packedcargo">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="262" parent="5" name="passports">
+    <table id="262" parent="5" name="passport">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="263" parent="5" name="person">
+    <table id="263" parent="5" name="passport_aud">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="264" parent="5" name="person_aud">
+    <table id="264" parent="5" name="passport_jpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="265" parent="5" name="person_companies">
+    <table id="265" parent="5" name="passports">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="266" parent="5" name="person_companies_aud">
+    <table id="266" parent="5" name="person">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="267" parent="5" name="persons">
+    <table id="267" parent="5" name="person_aud">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="268" parent="5" name="productcategory">
+    <table id="268" parent="5" name="person_companies">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="269" parent="5" name="servicegroup">
+    <table id="269" parent="5" name="person_companies_aud">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="270" parent="5" name="userrevision">
+    <table id="270" parent="5" name="person_jpa">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="271" parent="5" name="users">
+    <table id="271" parent="5" name="person_jpa_companies">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="272" parent="5" name="workers">
+    <table id="272" parent="5" name="persons">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="273" parent="239" name="DTYPE">
+    <table id="273" parent="5" name="productcategory">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="274" parent="5" name="servicegroup">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="275" parent="5" name="userrevision">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="276" parent="5" name="users">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="277" parent="5" name="workers">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="278" parent="239" name="DTYPE">
       <Position>1</Position>
       <DataType>varchar(31)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="239" name="id">
+    <column id="279" parent="239" name="id">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="239" name="name">
+    <column id="280" parent="239" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="239" name="serviceGroup">
+    <column id="281" parent="239" name="serviceGroup">
       <Position>4</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="239" name="productCategoryId">
+    <column id="282" parent="239" name="productCategoryId">
       <Position>5</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="278" parent="239" name="PRIMARY">
+    <key id="283" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="279" parent="240" name="id">
+    <column id="284" parent="240" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="240" name="building">
+    <column id="285" parent="240" name="building">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="240" name="city">
+    <column id="286" parent="240" name="city">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="240" name="street">
+    <column id="287" parent="240" name="street">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="240" name="tenantId">
+    <column id="288" parent="240" name="tenantId">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="284" parent="240" name="PRIMARY">
+    <key id="289" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="285" parent="241" name="id">
+    <column id="290" parent="241" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="241" name="REV">
+    <column id="291" parent="241" name="REV">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="241" name="REVTYPE">
+    <column id="292" parent="241" name="REVTYPE">
       <Position>3</Position>
       <DataType>tinyint(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="241" name="building">
+    <column id="293" parent="241" name="building">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="241" name="city">
+    <column id="294" parent="241" name="city">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="241" name="street">
+    <column id="295" parent="241" name="street">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="291" parent="241" name="FK24whibrf7ho2ds358u7jk95pi">
+    <index id="296" parent="241" name="FK24whibrf7ho2ds358u7jk95pi">
       <ColNames>REV</ColNames>
     </index>
-    <key id="292" parent="241" name="PRIMARY">
+    <key id="297" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 REV</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="293" parent="241" name="FK24whibrf7ho2ds358u7jk95pi">
+    <foreign-key id="298" parent="241" name="FK24whibrf7ho2ds358u7jk95pi">
       <ColNames>REV</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>userrevision</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="294" parent="242" name="id">
+    <column id="299" parent="242" name="id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="242" name="CITY">
+    <column id="300" parent="242" name="building">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="242" name="STREET">
+    <column id="301" parent="242" name="city">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="242" name="BUILDING">
+    <column id="302" parent="242" name="street">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="298" parent="242" name="PRIMARY">
+    <key id="303" parent="242" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="299" parent="243" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="300" parent="243" name="weight">
-      <Position>2</Position>
-      <DataType>bigint(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="301" parent="243" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="302" parent="244" name="id">
+    <column id="304" parent="243" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="244" name="NAME">
+    <column id="305" parent="243" name="CITY">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="304" parent="244" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="305" parent="245" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="306" parent="245" name="name">
-      <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="307" parent="245" name="tenantId">
+    <column id="306" parent="243" name="STREET">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="308" parent="245" name="PRIMARY">
+    <column id="307" parent="243" name="BUILDING">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="308" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="309" parent="246" name="id">
+    <column id="309" parent="244" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="246" name="REV">
+    <column id="310" parent="244" name="weight">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="311" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="312" parent="245" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="313" parent="245" name="NAME">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="314" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="315" parent="246" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="246" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="246" name="tenantId">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="318" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="319" parent="247" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="247" name="REV">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="246" name="REVTYPE">
+    <column id="321" parent="247" name="REVTYPE">
       <Position>3</Position>
       <DataType>tinyint(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="312" parent="246" name="name">
+    <column id="322" parent="247" name="name">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="313" parent="246" name="FKpsvs8yoj59yvkmqy3f6dw2w16">
+    <index id="323" parent="247" name="FKpsvs8yoj59yvkmqy3f6dw2w16">
       <ColNames>REV</ColNames>
     </index>
-    <key id="314" parent="246" name="PRIMARY">
+    <key id="324" parent="247" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 REV</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="315" parent="246" name="FKpsvs8yoj59yvkmqy3f6dw2w16">
+    <foreign-key id="325" parent="247" name="FKpsvs8yoj59yvkmqy3f6dw2w16">
       <ColNames>REV</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>userrevision</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="316" parent="247" name="passportSNo">
+    <column id="326" parent="248" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="248" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="328" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="329" parent="249" name="passportSNo">
       <Position>1</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="317" parent="247" name="passportSeries">
+    <column id="330" parent="249" name="passportSeries">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="247" name="name">
+    <column id="331" parent="249" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="319" parent="247" name="PRIMARY">
+    <key id="332" parent="249" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>passportSNo
 passportSeries</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="320" parent="248" name="id">
+    <column id="333" parent="250" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="321" parent="248" name="description">
+    <column id="334" parent="250" name="description">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="322" parent="248" name="PRIMARY">
+    <key id="335" parent="250" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="323" parent="249" name="id">
+    <column id="336" parent="251" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="249" name="greeting">
+    <column id="337" parent="251" name="greeting">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="249" name="target">
+    <column id="338" parent="251" name="target">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="326" parent="249" name="PRIMARY">
+    <key id="339" parent="251" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="327" parent="250" name="id">
+    <column id="340" parent="252" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="328" parent="250" name="greeting">
+    <column id="341" parent="252" name="greeting">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="250" name="target">
+    <column id="342" parent="252" name="target">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="330" parent="250" name="PRIMARY">
+    <key id="343" parent="252" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="331" parent="251" name="next_val">
+    <column id="344" parent="253" name="next_val">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="332" parent="252" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="333" parent="252" name="accountId">
-      <Position>2</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="334" parent="252" name="amount">
-      <Position>3</Position>
-      <DataType>decimal(10,2)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="335" parent="252" name="trxId">
-      <Position>4</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="336" parent="252" name="timestamp">
-      <Position>5</Position>
-      <DataType>datetime|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="337" parent="252" name="j_account_idx">
-      <ColNames>accountId</ColNames>
-    </index>
-    <index id="338" parent="252" name="UKhrpemm97gpk4of0u5w86gl362">
-      <ColNames>id
-accountId</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="339" parent="252" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <key id="340" parent="252" name="UKhrpemm97gpk4of0u5w86gl362">
-      <ColNames>id
-accountId</ColNames>
-      <UnderlyingIndexName>UKhrpemm97gpk4of0u5w86gl362</UnderlyingIndexName>
-    </key>
-    <column id="341" parent="253" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="342" parent="253" name="accountId">
-      <Position>2</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="343" parent="253" name="amount">
-      <Position>3</Position>
-      <DataType>decimal(10,2)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="344" parent="253" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="345" parent="254" name="id_jpa">
+    <column id="345" parent="254" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
@@ -1457,20 +1443,20 @@ accountId</ColNames>
     <index id="350" parent="254" name="j_account_idx">
       <ColNames>accountId</ColNames>
     </index>
-    <index id="351" parent="254" name="UKeobw61v0ikvmsl23lbvee8k6q">
-      <ColNames>id_jpa
+    <index id="351" parent="254" name="UKhrpemm97gpk4of0u5w86gl362">
+      <ColNames>id
 accountId</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="352" parent="254" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>id_jpa</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="353" parent="254" name="UKeobw61v0ikvmsl23lbvee8k6q">
-      <ColNames>id_jpa
+    <key id="353" parent="254" name="UKhrpemm97gpk4of0u5w86gl362">
+      <ColNames>id
 accountId</ColNames>
-      <UnderlyingIndexName>UKeobw61v0ikvmsl23lbvee8k6q</UnderlyingIndexName>
+      <UnderlyingIndexName>UKhrpemm97gpk4of0u5w86gl362</UnderlyingIndexName>
     </key>
     <column id="354" parent="255" name="id">
       <Position>1</Position>
@@ -1478,597 +1464,790 @@ accountId</ColNames>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="355" parent="255" name="weight">
+    <column id="355" parent="255" name="accountId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="356" parent="255" name="amount">
+      <Position>3</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="357" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="358" parent="256" name="id_jpa">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="359" parent="256" name="accountId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="360" parent="256" name="amount">
+      <Position>3</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="361" parent="256" name="trxId">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="362" parent="256" name="timestamp">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="363" parent="256" name="j_account_idx">
+      <ColNames>accountId</ColNames>
+    </index>
+    <index id="364" parent="256" name="UKeobw61v0ikvmsl23lbvee8k6q">
+      <ColNames>id_jpa
+accountId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="365" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_jpa</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="366" parent="256" name="UKeobw61v0ikvmsl23lbvee8k6q">
+      <ColNames>id_jpa
+accountId</ColNames>
+      <UnderlyingIndexName>UKeobw61v0ikvmsl23lbvee8k6q</UnderlyingIndexName>
+    </key>
+    <column id="367" parent="257" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="368" parent="257" name="weight">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="356" parent="255" name="liquidType">
+    <column id="369" parent="257" name="liquidType">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="255" name="volume">
+    <column id="370" parent="257" name="volume">
       <Position>4</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="358" parent="255" name="PRIMARY">
+    <key id="371" parent="257" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="359" parent="256" name="id">
+    <column id="372" parent="258" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="256" name="network">
+    <column id="373" parent="258" name="network">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="361" parent="256" name="PRIMARY">
+    <key id="374" parent="258" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="362" parent="257" name="description">
+    <column id="375" parent="259" name="description">
       <Position>1</Position>
       <DataType>varchar(64)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="363" parent="257" name="opCode">
+    <column id="376" parent="259" name="opCode">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="364" parent="257" name="op_id">
+    <column id="377" parent="259" name="op_id">
       <Position>3</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="365" parent="257" name="PRIMARY">
+    <key id="378" parent="259" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>op_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="366" parent="257" name="FKnsn70fyub4dsjmfdwhc2j1593">
+    <foreign-key id="379" parent="259" name="FKnsn70fyub4dsjmfdwhc2j1593">
       <ColNames>op_id</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>journal</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="367" parent="258" name="description">
+    <column id="380" parent="260" name="description">
       <Position>1</Position>
       <DataType>varchar(64)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="368" parent="258" name="opCode">
+    <column id="381" parent="260" name="opCode">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="369" parent="258" name="op_id_jpa">
+    <column id="382" parent="260" name="op_id_jpa">
       <Position>3</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="370" parent="258" name="PRIMARY">
+    <key id="383" parent="260" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>op_id_jpa</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="371" parent="258" name="FKsyiuiwtuw1s7eh2i5g99mylrj">
+    <foreign-key id="384" parent="260" name="FKsyiuiwtuw1s7eh2i5g99mylrj">
       <ColNames>op_id_jpa</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>journal_jpa</RefTableName>
       <RefColNames>id_jpa</RefColNames>
     </foreign-key>
-    <column id="372" parent="259" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="373" parent="259" name="weight">
-      <Position>2</Position>
-      <DataType>bigint(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="374" parent="259" name="height">
-      <Position>3</Position>
-      <DataType>bigint(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="375" parent="259" name="width">
-      <Position>4</Position>
-      <DataType>bigint(20)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="376" parent="259" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="377" parent="260" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="378" parent="260" name="issueDate">
-      <Position>2</Position>
-      <DataType>date|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="379" parent="260" name="no">
-      <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="380" parent="260" name="series">
-      <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="381" parent="260" name="validity">
-      <Position>5</Position>
-      <DataType>tinyblob|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="382" parent="260" name="ISSUE_DATE">
-      <Position>6</Position>
-      <DataType>datetime|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="383" parent="260" name="tenantId">
-      <Position>7</Position>
-      <DataType>varchar(255)|0</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="384" parent="260" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
     <column id="385" parent="261" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="386" parent="261" name="REV">
+    <column id="386" parent="261" name="weight">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="387" parent="261" name="height">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="388" parent="261" name="width">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="389" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="390" parent="262" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="391" parent="262" name="issueDate">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="262" name="no">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="393" parent="262" name="series">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="394" parent="262" name="validity">
+      <Position>5</Position>
+      <DataType>tinyblob|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="395" parent="262" name="ISSUE_DATE">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="262" name="tenantId">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="397" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="398" parent="263" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="263" name="REV">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="387" parent="261" name="REVTYPE">
+    <column id="400" parent="263" name="REVTYPE">
       <Position>3</Position>
       <DataType>tinyint(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="388" parent="261" name="issueDate">
+    <column id="401" parent="263" name="issueDate">
       <Position>4</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="389" parent="261" name="no">
+    <column id="402" parent="263" name="no">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="390" parent="261" name="series">
+    <column id="403" parent="263" name="series">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="391" parent="261" name="validity">
+    <column id="404" parent="263" name="validity">
       <Position>7</Position>
       <DataType>tinyblob|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="392" parent="261" name="FK709u0wcpen0krx5a5lg8vsroa">
+    <index id="405" parent="263" name="FK709u0wcpen0krx5a5lg8vsroa">
       <ColNames>REV</ColNames>
     </index>
-    <key id="393" parent="261" name="PRIMARY">
+    <key id="406" parent="263" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 REV</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="394" parent="261" name="FK709u0wcpen0krx5a5lg8vsroa">
+    <foreign-key id="407" parent="263" name="FK709u0wcpen0krx5a5lg8vsroa">
       <ColNames>REV</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>userrevision</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="395" parent="262" name="id">
+    <column id="408" parent="264" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="409" parent="264" name="issueDate">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="410" parent="264" name="no">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="264" name="series">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="264" name="validity">
+      <Position>5</Position>
+      <DataType>tinyblob|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="413" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="414" parent="265" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="396" parent="262" name="SERIES">
+    <column id="415" parent="265" name="SERIES">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="397" parent="262" name="NO">
+    <column id="416" parent="265" name="NO">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="398" parent="262" name="ISSUE_DATE">
+    <column id="417" parent="265" name="ISSUE_DATE">
       <Position>4</Position>
       <DataType>datetime|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="399" parent="262" name="PRIMARY">
+    <key id="418" parent="265" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="400" parent="263" name="id">
+    <column id="419" parent="266" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="401" parent="263" name="dob">
+    <column id="420" parent="266" name="dob">
       <Position>2</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="402" parent="263" name="firstName">
+    <column id="421" parent="266" name="firstName">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="403" parent="263" name="lastName">
+    <column id="422" parent="266" name="lastName">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="404" parent="263" name="PASSPORT_ID">
+    <column id="423" parent="266" name="PASSPORT_ID">
       <Position>5</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="405" parent="263" name="PERSON_ID">
+    <column id="424" parent="266" name="PERSON_ID">
       <Position>6</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="406" parent="263" name="tenantId">
+    <column id="425" parent="266" name="tenantId">
       <Position>7</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="407" parent="263" name="FK701a8b9b2kw01q32ws1rc42bp">
+    <index id="426" parent="266" name="FK701a8b9b2kw01q32ws1rc42bp">
       <ColNames>PERSON_ID</ColNames>
     </index>
-    <index id="408" parent="263" name="UK_33yyiniy3o7irjyb5nbmidt4u">
+    <index id="427" parent="266" name="UK_33yyiniy3o7irjyb5nbmidt4u">
       <ColNames>PASSPORT_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="409" parent="263" name="PRIMARY">
+    <key id="428" parent="266" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="410" parent="263" name="UK_33yyiniy3o7irjyb5nbmidt4u">
+    <key id="429" parent="266" name="UK_33yyiniy3o7irjyb5nbmidt4u">
       <ColNames>PASSPORT_ID</ColNames>
       <UnderlyingIndexName>UK_33yyiniy3o7irjyb5nbmidt4u</UnderlyingIndexName>
     </key>
-    <foreign-key id="411" parent="263" name="FKn3sbguup9nkxgiqxgfc0sigxj">
+    <foreign-key id="430" parent="266" name="FKn3sbguup9nkxgiqxgfc0sigxj">
       <ColNames>PASSPORT_ID</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>passport</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="412" parent="263" name="FK701a8b9b2kw01q32ws1rc42bp">
+    <foreign-key id="431" parent="266" name="FK701a8b9b2kw01q32ws1rc42bp">
       <ColNames>PERSON_ID</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>address</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="413" parent="264" name="id">
+    <column id="432" parent="267" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="414" parent="264" name="REV">
+    <column id="433" parent="267" name="REV">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="415" parent="264" name="REVTYPE">
+    <column id="434" parent="267" name="REVTYPE">
       <Position>3</Position>
       <DataType>tinyint(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="416" parent="264" name="dob">
+    <column id="435" parent="267" name="dob">
       <Position>4</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="417" parent="264" name="firstName">
+    <column id="436" parent="267" name="firstName">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="418" parent="264" name="lastName">
+    <column id="437" parent="267" name="lastName">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="419" parent="264" name="PASSPORT_ID">
+    <column id="438" parent="267" name="PASSPORT_ID">
       <Position>7</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="420" parent="264" name="PERSON_ID">
+    <column id="439" parent="267" name="PERSON_ID">
       <Position>8</Position>
       <DataType>bigint(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="421" parent="264" name="FKoimk7265tkuiifdik5no52tu6">
+    <index id="440" parent="267" name="FKoimk7265tkuiifdik5no52tu6">
       <ColNames>REV</ColNames>
     </index>
-    <key id="422" parent="264" name="PRIMARY">
+    <key id="441" parent="267" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 REV</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="423" parent="264" name="FKoimk7265tkuiifdik5no52tu6">
+    <foreign-key id="442" parent="267" name="FKoimk7265tkuiifdik5no52tu6">
       <ColNames>REV</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>userrevision</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="424" parent="265" name="PERSON_ID">
+    <column id="443" parent="268" name="PERSON_ID">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="425" parent="265" name="COMPANY_ID">
+    <column id="444" parent="268" name="COMPANY_ID">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="426" parent="265" name="FK2xnkexg6vm6l0346lru8r6qaa">
+    <index id="445" parent="268" name="FK2xnkexg6vm6l0346lru8r6qaa">
       <ColNames>COMPANY_ID</ColNames>
     </index>
-    <index id="427" parent="265" name="FKj1do3s4ycpku0fpmm3pinysau">
+    <index id="446" parent="268" name="FKj1do3s4ycpku0fpmm3pinysau">
       <ColNames>PERSON_ID</ColNames>
     </index>
-    <foreign-key id="428" parent="265" name="FKj1do3s4ycpku0fpmm3pinysau">
+    <foreign-key id="447" parent="268" name="FKj1do3s4ycpku0fpmm3pinysau">
       <ColNames>PERSON_ID</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>person</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="429" parent="265" name="FK2xnkexg6vm6l0346lru8r6qaa">
+    <foreign-key id="448" parent="268" name="FK2xnkexg6vm6l0346lru8r6qaa">
       <ColNames>COMPANY_ID</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>company</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="430" parent="266" name="REV">
+    <column id="449" parent="269" name="REV">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="431" parent="266" name="PERSON_ID">
+    <column id="450" parent="269" name="PERSON_ID">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="432" parent="266" name="COMPANY_ID">
+    <column id="451" parent="269" name="COMPANY_ID">
       <Position>3</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="433" parent="266" name="REVTYPE">
+    <column id="452" parent="269" name="REVTYPE">
       <Position>4</Position>
       <DataType>tinyint(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="434" parent="266" name="PRIMARY">
+    <key id="453" parent="269" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>REV
 PERSON_ID
 COMPANY_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="435" parent="266" name="FK9oblrft7cif5glk7r3lqop9de">
+    <foreign-key id="454" parent="269" name="FK9oblrft7cif5glk7r3lqop9de">
       <ColNames>REV</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>userrevision</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="436" parent="267" name="id">
+    <column id="455" parent="270" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="456" parent="270" name="dob">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="457" parent="270" name="firstName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="458" parent="270" name="lastName">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="459" parent="270" name="PASSPORT_JPA_ID">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="270" name="PERSON_JPA_ID">
+      <Position>6</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="461" parent="270" name="FKjix5wfdhlryufii8hrd05wey4">
+      <ColNames>PERSON_JPA_ID</ColNames>
+    </index>
+    <index id="462" parent="270" name="UK_oeawcy7mg5mxelmbr8vxxcw2k">
+      <ColNames>PASSPORT_JPA_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="463" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="464" parent="270" name="UK_oeawcy7mg5mxelmbr8vxxcw2k">
+      <ColNames>PASSPORT_JPA_ID</ColNames>
+      <UnderlyingIndexName>UK_oeawcy7mg5mxelmbr8vxxcw2k</UnderlyingIndexName>
+    </key>
+    <foreign-key id="465" parent="270" name="FKehfu8rtle20yg63svh0eil6qa">
+      <ColNames>PASSPORT_JPA_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>passport_jpa</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="466" parent="270" name="FKjix5wfdhlryufii8hrd05wey4">
+      <ColNames>PERSON_JPA_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>address_jpa</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="467" parent="271" name="PERSON_JPA_ID">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="468" parent="271" name="COMPANY_JPA_ID">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="469" parent="271" name="FKa4jtqvgckyn94wbnbgvfk0m0a">
+      <ColNames>COMPANY_JPA_ID</ColNames>
+    </index>
+    <index id="470" parent="271" name="FKsj05vs25ba20xivekl7q6ps4y">
+      <ColNames>PERSON_JPA_ID</ColNames>
+    </index>
+    <foreign-key id="471" parent="271" name="FKsj05vs25ba20xivekl7q6ps4y">
+      <ColNames>PERSON_JPA_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>person_jpa</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="472" parent="271" name="FKa4jtqvgckyn94wbnbgvfk0m0a">
+      <ColNames>COMPANY_JPA_ID</ColNames>
+      <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
+      <RefTableName>company_jpa</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="473" parent="272" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="437" parent="267" name="FIRST_NAME">
+    <column id="474" parent="272" name="FIRST_NAME">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="438" parent="267" name="LAST_NAME">
+    <column id="475" parent="272" name="LAST_NAME">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="439" parent="267" name="DOB">
+    <column id="476" parent="272" name="DOB">
       <Position>4</Position>
       <DataType>datetime|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="440" parent="267" name="PRIMARY_ADDRESS">
+    <column id="477" parent="272" name="PRIMARY_ADDRESS">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="441" parent="267" name="FKk4kghites514f7nba428y6gau">
+    <index id="478" parent="272" name="FKk4kghites514f7nba428y6gau">
       <ColNames>PRIMARY_ADDRESS</ColNames>
     </index>
-    <key id="442" parent="267" name="PRIMARY">
+    <key id="479" parent="272" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="443" parent="267" name="FKk4kghites514f7nba428y6gau">
+    <foreign-key id="480" parent="272" name="FKk4kghites514f7nba428y6gau">
       <ColNames>PRIMARY_ADDRESS</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>addresses</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="444" parent="268" name="code">
+    <column id="481" parent="273" name="code">
       <Position>1</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="445" parent="268" name="id">
+    <column id="482" parent="273" name="id">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="446" parent="268" name="PRIMARY">
+    <key id="483" parent="273" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="447" parent="268" name="FKa08moreascn7rifgfn40tdnfb">
+    <foreign-key id="484" parent="273" name="FKa08moreascn7rifgfn40tdnfb">
       <ColNames>id</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>descriptions_inheritance</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="448" parent="269" name="code">
+    <column id="485" parent="274" name="code">
       <Position>1</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="449" parent="269" name="id">
+    <column id="486" parent="274" name="id">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="450" parent="269" name="PRIMARY">
+    <key id="487" parent="274" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="451" parent="269" name="FKliwxchhhr315k6usqkof0nnap">
+    <foreign-key id="488" parent="274" name="FKliwxchhhr315k6usqkof0nnap">
       <ColNames>id</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>descriptions_inheritance</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="452" parent="270" name="id">
+    <column id="489" parent="275" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="453" parent="270" name="timestamp">
+    <column id="490" parent="275" name="timestamp">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="454" parent="270" name="username">
+    <column id="491" parent="275" name="username">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="455" parent="270" name="PRIMARY">
+    <key id="492" parent="275" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="456" parent="271" name="username">
+    <column id="493" parent="276" name="username">
       <Position>1</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="457" parent="271" name="email">
+    <column id="494" parent="276" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="458" parent="271" name="password">
+    <column id="495" parent="276" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="459" parent="271" name="UK_6dotkott2kjsp8vw4d0m25fb7">
+    <index id="496" parent="276" name="UK_6dotkott2kjsp8vw4d0m25fb7">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="460" parent="271" name="PRIMARY">
+    <key id="497" parent="276" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="461" parent="271" name="UK_6dotkott2kjsp8vw4d0m25fb7">
+    <key id="498" parent="276" name="UK_6dotkott2kjsp8vw4d0m25fb7">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>UK_6dotkott2kjsp8vw4d0m25fb7</UnderlyingIndexName>
     </key>
-    <column id="462" parent="272" name="COMPANY_ID">
+    <column id="499" parent="277" name="COMPANY_ID">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="463" parent="272" name="PERSON_ID">
+    <column id="500" parent="277" name="PERSON_ID">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="464" parent="272" name="FK4cgqdimxufaqrp1hytmwcxj2b">
+    <index id="501" parent="277" name="FK4cgqdimxufaqrp1hytmwcxj2b">
       <ColNames>COMPANY_ID</ColNames>
     </index>
-    <key id="465" parent="272" name="PRIMARY">
+    <key id="502" parent="277" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>PERSON_ID
 COMPANY_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="466" parent="272" name="FK4cgqdimxufaqrp1hytmwcxj2b">
+    <foreign-key id="503" parent="277" name="FK4cgqdimxufaqrp1hytmwcxj2b">
       <ColNames>COMPANY_ID</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>companies</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="467" parent="272" name="FKh0t9vx7lstlfjfex1gh0k0cyk">
+    <foreign-key id="504" parent="277" name="FKh0t9vx7lstlfjfex1gh0k0cyk">
       <ColNames>PERSON_ID</ColNames>
       <RefSchemaName>hibernate_jpa_easyjava</RefSchemaName>
       <RefTableName>persons</RefTableName>
