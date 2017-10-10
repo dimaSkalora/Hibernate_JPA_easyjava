@@ -50,11 +50,15 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="" />
         <datasource-mapping>
+          <factory-entry name="data-jpa-hibernate-callbacks_10" />
+          <factory-entry name="data-jpa-hibernate-criteria_08" />
+          <factory-entry name="data-jpa-hibernate-entitymanager_06" />
           <factory-entry name="data-jpa-hibernate-entitymapping_02" />
           <factory-entry name="data-jpa-hibernate-hellojpahibernate_01" />
           <factory-entry name="data-jpa-hibernate-inheritance_04" />
           <factory-entry name="data-jpa-hibernate-primarykeys_03" />
           <factory-entry name="data-jpa-hibernate-relations_05" />
+          <factory-entry name="data-jpa-jpql_07" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
